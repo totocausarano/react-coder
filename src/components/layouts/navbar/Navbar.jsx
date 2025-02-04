@@ -1,28 +1,24 @@
 import { CartWidget } from "../../common/CartWidget";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 import logo from "../../../assets/logo/logo-mate.png";
 export const Navbar = () => {
   return (
     <nav>
-      <img src={logo} alt="" />
+      <Link to="/">
+        <img src={logo} alt="Mate Logo" />
+      </Link>
       <div>
         <ul>
-          <li>
-            <h3>Mates</h3>
-          </li>
-          <li>
-            <h3>Termos</h3>
-          </li>
-          <li>
-            <h3>Materas</h3>
-          </li>
-          <li>
-            <h3>Accesorios</h3>
-            <li>Bombillas</li>
-            <li>Yerba</li>
-          </li>
+          <Link to="/category/Mates">Mates</Link>
+          <Link to="/category/Termos">Termos</Link>
+          <Link to="/category/Materas">Materas</Link>
+          <Link to="/category/Accesorios">Accesorios</Link>
         </ul>
       </div>
-      <CartWidget />
+      <div className="cartwidget">
+        <CartWidget />
+      </div>
     </nav>
   );
 };

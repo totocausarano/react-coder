@@ -1,8 +1,9 @@
 import { HiOutlineShoppingCart } from "react-icons/hi";
+import { Link } from "react-router-dom";
 export const CartWidget = () => {
   return (
-    <div>
+    <Link to="/cart">
       <HiOutlineShoppingCart />
-    </div>
+    </Link>
   );
 };
