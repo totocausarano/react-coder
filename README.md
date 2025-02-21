@@ -14,3 +14,5 @@ Esta es una aplicación web de mi tienda de mates, construida con React. El proy
 - Firebase
 - React Router
 - CSS Modules
+
+- Tobias Causarano
