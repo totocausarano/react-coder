@@ -1,15 +1,15 @@
 export let products = [
+  //{
+    //id: 1,
+    //title: "Mate de calabaza",
+   // price: 1000,
+   // pictureUrl:
+    //  "https://res.cloudinary.com/du6rttxbf/image/upload/v1738709994/image_x60z70.jpg",
+    //stock: 5,
+    //category: "Mates",
+  //},
   {
-    id: 1,
-    title: "Mate de calabaza",
-    price: 1000,
-    pictureUrl:
-      "https://res.cloudinary.com/du6rttxbf/image/upload/v1738709994/image_x60z70.jpg",
-    stock: 5,
-    category: "Mates",
-  },
-  {
-    id: 2,
+    //id: 2,
     title: "Termo Stanley",
     price: 1500,
     pictureUrl:
@@ -18,7 +18,7 @@ export let products = [
     category: "Termos",
   },
   {
-    id: 3,
+    //id: 3,
     title: "Matera de cuero",
     price: 500,
     pictureUrl:
@@ -27,7 +27,7 @@ export let products = [
     category: "Materas",
   },
   {
-    id: 4,
+    //id: 4,
     title: "Bombilla de alpaca",
     price: 200,
     pictureUrl:
@@ -36,7 +36,7 @@ export let products = [
     category: "Accesorios",
   },
   {
-    id: 5,
+   // id: 5,
     title: "Yerba Canarias",
     price: 300,
     pictureUrl:
@@ -45,7 +45,7 @@ export let products = [
     category: "Accesorios",
   },
   {
-    id: 6,
+   // id: 6,
     title: "Mate imperial",
     price: 800,
     pictureUrl:
@@ -54,7 +54,7 @@ export let products = [
     category: "Mates",
   },
   {
-    id: 7,
+    //id: 7,
     title: "Termo de acero",
     price: 1200,
     pictureUrl:

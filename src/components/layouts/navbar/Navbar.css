@@ -1,36 +1,35 @@
-/* Estiliza el navbar */
+
 nav {
-  display: flex; /* Para alinear elementos horizontalmente */
-  align-items: center; /* Alinea verticalmente */
+  display: flex;
+  align-items: center; 
   justify-content: space-between;
-  background-color: #333; /* Color de fondo opcional */
+  background-color: #333; 
   padding: 10px 20px;
 }
 
-/* Ajusta el tamaño del logo */
+
 nav img {
-  width: 80px; /* Ajusta según necesidad */
+  width: 80px; 
   height: auto;
   margin-right: 20px;
 }
 
-/* Estiliza la lista para que sea horizontal */
+
 nav ul {
   display: flex;
-  list-style: none; /* Quita los estilos de lista */
+  list-style: none; 
   padding: 0;
   margin: 0;
-  gap: 20px; /* Espaciado entre elementos */
+  gap: 20px; 
 }
 
-/* Estiliza los elementos de la lista */
 nav ul a {
   color: white;
   font-size: 16px;
   text-decoration: none;
 }
 
-/* Elimina los estilos de los enlaces */
+
 nav ul li h3 {
   margin: 0;
   font-size: 18px;
@@ -39,7 +38,7 @@ nav ul li h3 {
 }
 
 nav ul li h3:hover {
-  color: #f8b400; /* Cambia el color al pasar el mouse */
+  color: #f8b400; 
 }
 nav .cartwidget {
   display: flex;
