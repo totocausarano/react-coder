@@ -20,11 +20,11 @@
 
 .item-detail-image {
   flex: 1;
-  max-width: 400px; /* Reduced from 500px */
+  max-width: 400px; 
 }
 
 .item-detail-image img {
-  width: 80%; /* Reduced from 100% */
+  width: 80%; 
   height: auto;
   object-fit: cover;
   border-radius: 8px;
