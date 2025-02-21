@@ -1,8 +1,16 @@
-# React + Vite
+# Proyecto E-commerce React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
+Esta es una aplicación web de mi tienda de mates, construida con React. El proyecto simula una tienda online donde los usuarios pueden navegar por productos, agregarlos al carrito y completar un proceso de compra.
 
-Currently, two official plugins are available:
+## Características
+- Catálogo de productos con categorías
+- Funcionalidad de carrito de compras
+- Proceso de checkout
+- Diseño responsive
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Utilizadas
+- React.js
+- Firebase
+- React Router
+- CSS Modules
